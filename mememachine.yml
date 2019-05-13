@@ -9,4 +9,4 @@ functions:
     image: albertomarini/faas-mememachine:0.2
 spec:
   constraints:
-    type: rasp
+    type: cloud
