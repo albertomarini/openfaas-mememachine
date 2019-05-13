@@ -8,5 +8,5 @@ functions:
     handler: ./mememachine
     image: albertomarini/faas-mememachine:0.2
 spec:
-  constraints:
+  labels:
     type: cloud
