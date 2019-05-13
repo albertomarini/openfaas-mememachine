@@ -6,6 +6,6 @@ functions:
   mememachine:
     lang: Dockerfile
     handler: ./mememachine
-    image: developius/faas-mememachine:0.2
+    image: albertomarini/faas-mememachine:0.2
  nodeSelector:
     type: rasp
