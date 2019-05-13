@@ -7,3 +7,5 @@ functions:
     lang: Dockerfile
     handler: ./mememachine
     image: developius/faas-mememachine:0.2
+ nodeSelector:
+    type: rasp
