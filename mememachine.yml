@@ -1,6 +1,6 @@
 provider:
   name: faas
-  gateway: http://178.128.194.203:31112/
+  gateway: http://165.227.148.89:31112/
 
 functions:
   mememachine:
@@ -8,4 +8,4 @@ functions:
     handler: ./mememachine
     image: developius/faas-mememachine:0.2
     constraints:
-      - "type=cloud"
+      - "type=rasp"
