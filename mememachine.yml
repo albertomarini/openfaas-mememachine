@@ -8,4 +8,4 @@ functions:
     handler: ./mememachine
     image: developius/faas-mememachine:0.2
     constraints:
-      - "type=rasp"
+      - "type=rspbpi-01"
